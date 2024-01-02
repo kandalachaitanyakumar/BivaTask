@@ -1,0 +1,11 @@
+.form-width{
+    width: 100%;
+}
+.add{
+    border-radius: 20px !important;
+}
+.add:hover{
+    background: black;
+    color:white
+    
+}

@@ -1,0 +1,45 @@
+.edit-form{
+    height:500px
+}
+.form-width{
+    width: 100%;
+}
+.close{
+    border-radius: 20px;
+}
+.update{
+    border-radius: 20px;
+}
+.update:hover{
+    background: white;
+    color: black;
+}
+.add-task{
+    border-radius: 20px;
+}
+.edit-btn{
+    border-radius: 20px;
+    background: blueviolet;
+    color:white;
+    border:none;
+    padding: 10px;
+}
+.edit-btn:hover{
+    background: black;
+    color:white;
+}
+.delete-btn{
+    border-radius: 20px;
+    background: rgb(206, 104, 20);
+    color:white;
+    border:none;
+    padding: 10px;
+}
+.delete-btn:hover{
+    background: rgb(189, 36, 36);
+    /* color: black; */
+    /* border: 1px solid black; */
+}
+th{
+    color:blueviolet
+}

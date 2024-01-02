@@ -1,0 +1,67 @@
+<section class="mt-4">
+  <div class="row justify-content-center">
+    <div class="col-md-7 shadow-lg m-1" align="center">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <h3 class="total">Total Task Dues in the Next 7 Days</h3>
+          <div class="chart" *ngIf="chartOptions && chartOptions.chart && chartOptions.series && chartOptions.xaxis">
+            <apx-chart [series]="chartOptions?.series" [chart]="chartOptions?.chart" [xaxis]="chartOptions?.xaxis"></apx-chart>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <div *ngIf="upcomingDatesChartOptions">
+            <p class="display-6">Daily report of Task dues in the next 7 days.</p>
+            <div class="chart2" *ngIf="upcomingDatesChartOptions.chart && upcomingDatesChartOptions.series && upcomingDatesChartOptions.xaxis">
+              <apx-chart [series]="upcomingDatesChartOptions?.series" [chart]="upcomingDatesChartOptions?.chart" [xaxis]="upcomingDatesChartOptions?.xaxis"></apx-chart>
+
+            </div>
+          </div>
+        </div>
+      </div>    </div>
+    <div class="col-md-4 p-4 mt-1 shadow-lg" align="center">
+      <mat-tab-group animationDuration="2000ms">
+        <mat-tab label="Next 7 Due Dates"> 
+          <div *ngIf="tasksDueDates.length > 0">
+          <h3>Next 7 Task Due Dates</h3>
+          <table class="table table-striped">
+            <thead>
+                <tr> 
+                <th scope="col">Task Id</th>
+                <th scope="col">Task Due Date</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let dueDate of tasksDueDates">
+                <td>{{ dueDate.taskId }}</td>
+                <td>{{ dueDate.date | date: 'medium' }} </td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </mat-tab>
+        <mat-tab label="All Due Dates"> 
+          <h3>All Task Due Dates</h3>
+          <table class="table table-striped">
+            <thead>
+                <tr> 
+                <th scope="col">Task Id</th>
+                <th scope="col">Task Due Date</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let task of data">
+                <td>{{task.id}}</td>
+                <td>{{task.dueDate}} </td>
+                
+              </tr>
+            </tbody>
+          </table>
+        </mat-tab>
+      </mat-tab-group>
+     
+    </div>
+  </div>
+ 
+
+</section>
