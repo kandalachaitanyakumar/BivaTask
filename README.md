@@ -10,8 +10,9 @@
 
 
 Test this App:
+
 9.A add task form will appear when the application starts. You can add the task here. If the task is successfully added, you will be redirected to the task list page.
 10.If you want to view the Existing task list without adding a task, I have provided a link in the nav bar and clicking on it will take you to the task list page.
-here you can see all tasks Names, Description, DueDates and you can edit and delete task data here.
+here you can see all tasks Names, Description, DueDates and you can edit and delete task data here.  There is also an add button, click on it and the add task form will open. You can Add New Task
 11.I have provided a chart 'view link' in the nav bar it will take you to the chart component. 
 Here you can see all the task dues count for the next 7 days, their daily task dues in the form of charts.
