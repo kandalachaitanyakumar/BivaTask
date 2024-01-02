@@ -1,0 +1,166 @@
+{
+  "tasks": [
+    {
+      "id": 2,
+      "taskName": "Serve the application.",
+      "description": "You should see the application running in your browser.",
+      "dueDate": "01-02-2024"
+    },
+    {
+      "id": 3,
+      "taskName": "Component Creation",
+      "description": "Cfreate Needed Components",
+      "dueDate": "01-06-2024"
+    },
+    {
+      "id": 5,
+      "taskName": "Add Services",
+      "description": "Add Needed Services",
+      "dueDate": "01-03-2024"
+    },
+    {
+      "id": 6,
+      "taskName": "Add Navigation",
+      "description": "Add Routing and Navigation",
+      "dueDate": "01-02-2024"
+    },
+    {
+      "id": 7,
+      "taskName": "Get Data from Server",
+      "description": "Get all data and display in the view",
+      "dueDate": "01-03-2024"
+    },
+    {
+      "id": 9,
+      "taskName": "Define Project Scope and Objectives",
+      "description": "Clearly define the purpose and goals of your project.\nIdentify the target audience and their needs.",
+      "dueDate": "01-04-2024"
+    },
+    {
+      "id": 10,
+      "taskName": "Design the Architecture",
+      "description": "Create a high-level design or architecture for your software.Decide on the technology stack, frameworks, and databases.",
+      "dueDate": "01-04-2024"
+    },
+    {
+      "id": 11,
+      "taskName": "Create Wireframes and Prototypes",
+      "description": "Develop wireframes or mockups to visualize the user interface",
+      "dueDate": "02-04-2024"
+    },
+    {
+      "id": 12,
+      "taskName": "Develop the Software",
+      "description": "Write code based on the design and specifications.\nFollow coding best practices and coding standards.",
+      "dueDate": "01-05-2024"
+    },
+    {
+      "id": 13,
+      "taskName": "Implement Testing",
+      "description": "Conduct unit testing for individual components.\nPerform integration testing to ensure modules work together.",
+      "dueDate": "01-02-2024"
+    },
+    {
+      "id": 14,
+      "taskName": "Deploy the Application",
+      "description": "Set up deployment environments (development, staging, production).Deploy the software to the target environment.",
+      "dueDate": "01-05-2024"
+    },
+    {
+      "id": 15,
+      "taskName": "Perform User Acceptance Testing",
+      "description": "Engage end-users in testing to ensure the software meets their needs.",
+      "dueDate": "01-08-2024"
+    },
+    {
+      "id": 16,
+      "taskName": "Document the Software",
+      "description": "Create comprehensive documentation, including user manuals and technical documentation",
+      "dueDate": "01-08-2024"
+    },
+    {
+      "id": 17,
+      "taskName": "Monitor and Maintain",
+      "description": "Implement monitoring tools to track system performance.",
+      "dueDate": "01-08-2024"
+    },
+    {
+      "taskName": "Check all Tasks",
+      "description": "Che All Tasks Dails",
+      "dueDate": "01-04-2024",
+      "id": 18
+    },
+    {
+      "taskName": "Iterate and Enhance",
+      "description": "Plan for future releases and enhancements based on user feedback and changing requirements.",
+      "dueDate": "01-17-2024",
+      "id": 19
+    },
+    {
+      "taskName": "Last Task",
+      "description": "Last",
+      "dueDate": "01-31-2024",
+      "id": 20
+    },
+    {
+      "taskName": "Testing",
+      "description": "Task Testing",
+      "dueDate": "01-11-2024",
+      "id": 21
+    },
+    {
+      "taskName": "Implement Dependency Injection",
+      "description": "Use dependency injection to inject the service into components.",
+      "dueDate": "01-09-2024",
+      "id": 22
+    },
+    {
+      "taskName": "Implent Navigation",
+      "description": "Include a navigation bar with links to switch between the Task List and Chart views.",
+      "dueDate": "01-10-2024",
+      "id": 23
+    },
+    {
+      "taskName": "Tesing Task",
+      "description": "Test Your task Daily",
+      "dueDate": "01-10-2024",
+      "id": 24
+    },
+    {
+      "id": 25,
+      "taskName": "Implement Alert Services",
+      "description": "Create a service for displaying snack-bar notifications",
+      "dueDate": "01-12-2024"
+    },
+    {
+      "taskName": "Create a new repository ",
+      "description": "Create a new repository and push your code",
+      "dueDate": "01-13-2024",
+      "id": 26
+    },
+    {
+      "taskName": "Make Changes",
+      "description": "Pull the Code and Make changes",
+      "dueDate": "01-13-2024",
+      "id": 27
+    },
+    {
+      "taskName": "Add Styles",
+      "description": "Add Extra Styles to Your Application",
+      "dueDate": "01-14-2024",
+      "id": 28
+    },
+    {
+      "taskName": "Install Angular Material",
+      "description": "Install Angular Material and use needed modules",
+      "dueDate": "01-15-2024",
+      "id": 29
+    },
+    {
+      "taskName": "Host your App",
+      "description": "Hist",
+      "dueDate": "01-16-2024",
+      "id": 30
+    }
+  ]
+}
